@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "코딩하는 다람쥐(chewmunk)"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **chewmunk**."
   location         : "Seoul, South Korea"
   email            :
