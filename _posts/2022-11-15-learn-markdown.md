@@ -1,3 +1,14 @@
+---
+title: "markdown 사용법 익히기 "
+excerpt: "makrdown 사용법에 관한 포스트를 볼 수 있습니다."
+
+categories:
+    - Blog
+tags:
+    - Blog
+last_modified_at: 2022-11-15 23:56:08 +0900
+
+---
 
 이 글은 devinlife님의 블로그 글따라하기를 시작하여 만든 것이다.  
 이 글을 따라 쓰면서 markdown 문법에 대해서 살펴볼 예정이다.  
