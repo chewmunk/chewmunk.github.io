@@ -19,13 +19,13 @@ locale                   : "en-US"
 title                    : "코딩하는 다람쥐"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "코딩하는 다람쥐(chewmunk)"
+name                     : "코딩하는 다람쥐"
 description              : "This page is chemunk's world"
 url                      : "https://chewmunk.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/profile.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/profile.jpeg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     :  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -112,7 +112,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:chw1787@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
