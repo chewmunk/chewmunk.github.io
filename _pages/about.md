@@ -13,8 +13,6 @@ layouts_gallery:
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
 last_modified_at: 2022-11-16 10:14:16 +0900
-toc: true
-layout: posts
 ---
 
 Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
