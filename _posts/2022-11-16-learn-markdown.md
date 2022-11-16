@@ -89,11 +89,36 @@ Here's some words about the book _One Hundred Years..._.
 첫 번째 링크 스타일은 인라인 링크 스타일 이라고 부릅니다.  
 인라인 링크를 만들기 위해서는 텍스트를 대괄호[]로 감싼 후 링크할 주소를 소괄호()로 감싸면 됩니다.  
 
-[Github 방문!](www.github.com)
+쉽게 외우기 
 
-```ruby
-# 대괄호 안에는 텍스트
-# 소괄호 안에는 링크
-# 대(텍스트) -> 소(링크)
+대괄호 안에는 텍스트, 소괄호 안에는 링크. 대(텍스트) -> 소(링크)
+
+
+### 3.1.1 인라인 링크 예제 1
+예제 코드 1  
+[Github 방문!](www.github.com)  
+[Search for it.](www.google.com)
+
+```
+# 문제 
+Search for it. 
+
+# 코드
 [Github 방문!](www.github.com)
+[Search for it.](www.google.com)
+```
+
+### 3.1.2 인라인 링크 예제 2
+예제 코드 2  
+
+[You're **really, really** going to want to see this.](www.dailykitten.com)
+
+```
+# 문제 
+아래 입력창에서 "really, really"를 볼드체로, 전체 문장이 www.dailykitten.com로 링크 되도록 만들어보세요. 볼드체가 링크 대괄호 안에서 발생하는지 확인해 보세요.
+
+You're really, really going to want to see this.
+
+# 코드 
+[You're **really, really** going to want to see this.](www.dailykitten.com)
 ```
