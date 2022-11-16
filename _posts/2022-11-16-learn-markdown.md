@@ -3,9 +3,10 @@ title: "[Markdown] 기초 정리"
 excerpt: "Markdown 기초 정리"
 
 categories:
-    - Blog
+    - Markdown
 tags:
     - Markdown
+    - md
 last_modified_at: 2022-11-16 19:21:00 +0900
 
 ---
@@ -58,6 +59,18 @@ _이것_
 헤더 3을 사용하기 위해서는 해쉬 마크(### 헤더 3)를 3개 사용할 수 있습니다. 
 
 ```
+// 문제 
+각 헤더를 앎자은 사이즈로 만들어보세요.
+
+// 주어진 코드
+Header one
+Header two
+Header three
+Header four
+Header five
+Header six
+
+// 정답 코드 
 # 이것은 헤더 1입니다.
 ## 이것은 헤더 2입니다.
 ### 이것은 헤더 3입니다.
@@ -72,13 +85,20 @@ _이것_
 
 Here's some words about the book _One Hundred Years..._.
 
-code 
+문제 
 ```
+// 문제
+아래 입력 창에서 첫번째줄을 헤더 4로 책의 이름을 이탤릭체로 만들어보세요.
+Colombian Symbolism in One Hundred Years of Solitude
+
+// 주어진 코드
+Here's some words about the book _One Hundred Years..._.
+
+// 정답 코드
 #### Colombian Symbolism in _One Hundred Years of Solitude_
 
 Here's some words about the book _One Hundred Years..._.
 ```
-
 
 # 3. 링크(Links)
 다른 웹사이트로 이동할 수 있는 링크에 대해서 배울 것입니다.
@@ -94,31 +114,51 @@ Here's some words about the book _One Hundred Years..._.
 대괄호 안에는 텍스트, 소괄호 안에는 링크. 대(텍스트) -> 소(링크)
 
 
-### 3.1.1 인라인 링크 예제 1
+### 3.1.1 링크 만들기
 예제 코드 1  
 [Github 방문!](www.github.com)  
 [Search for it.](www.google.com)
 
 ```
-# 문제 
+// 문제 
+Search for it 란 텍스트에 www.google.com로 링크되도록 링크를 만들어보세요.
+
+// 주어진 코드
 Search for it. 
 
-# 코드
+// 정답 코드
 [Github 방문!](www.github.com)
 [Search for it.](www.google.com)
 ```
 
-### 3.1.2 인라인 링크 예제 2
+### 3.1.2 링크된 텍스트에 볼드체 추가하기
 예제 코드 2  
 
 [You're **really, really** going to want to see this.](www.dailykitten.com)
 
 ```
-# 문제 
+// 문제 
 아래 입력창에서 "really, really"를 볼드체로, 전체 문장이 www.dailykitten.com로 링크 되도록 만들어보세요. 볼드체가 링크 대괄호 안에서 발생하는지 확인해 보세요.
 
+// 주어진 코드 
 You're really, really going to want to see this.
 
-# 코드 
+// 정답 코드 
 [You're **really, really** going to want to see this.](www.dailykitten.com)
 ```
+
+### 3.1.3 헤더에 링크 만들기 
+
+```
+// 문제
+아래 문장을 헤더 4로 만들고 the BBC를 www.bbc.com/news로 링크되도록 만들어보세요.
+
+// 주어진 코드
+The Latest News from the BBC
+
+// 정답 코드 
+#### The Latest News from [the BBC](www.bbc.com/news)
+```
+
+> 3.1.3의 md
+#### The Latest News from [the BBC](www.bbc.com/news)
