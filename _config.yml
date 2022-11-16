@@ -20,7 +20,7 @@ title                    : "기록하는 다람쥐"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "기록하는 다람쥐"
-description              : "안녕하세요. 기록하는 다람쥐입니다."
+description              : "Welcome to chewmunk's world"
 url                      : "https://chewmunk.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
