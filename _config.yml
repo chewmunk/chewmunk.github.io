@@ -20,7 +20,7 @@ title                    : "기록하는 다람쥐"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "기록하는 다람쥐"
-description              : "This page is chewmunk's world"
+description              : "안녕하세요. 기록하는 다람쥐입니다."
 url                      : "https://chewmunk.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "기록하는 다람쥐"
   avatar           : "/assets/images/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **chewmunk**."
+  bio              : "Service Provider"
   location         : "Seoul, South Korea"
   email            :
   links:
