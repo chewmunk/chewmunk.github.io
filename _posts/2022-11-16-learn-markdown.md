@@ -1,14 +1,13 @@
 ---
-title: "[Markdown] 기초 정리"
-excerpt: "Markdown 기초 정리"
+title: "[Markdown] 기초 정리 1 - 이탤릭체, 볼드체, 헤더, 링크(인라인, 참조)"
+excerpt: "Markdown 기초 정리 1 - 이탤릭체, 볼드체, 헤더, 링크(인라인, 참조)"
 
 categories:
     - Markdown
 tags:
     - Markdown
     - md
-last_modified_at: 2022-11-16 19:21:00 +0900
-
+last_modified_at: 2022-11-17 23:40:34 +0900
 ---
 
 # 1. 이탤릭체와 볼드체(Italics and Bold)
@@ -157,4 +156,68 @@ The Latest News from the BBC
 
 
 ## 3.2 참조 링크 
-참조 링크는 실제로 문서 내의 다른 위치에 대한 참조를 나타냅니다.
+참조 링크는 실제로 문서 내의 다른 위치에 대한 참조를 나타냅니다.  
+여기 [태그 1][참조 링크1]가 있습니다.  
+여기 [태그 1][참조 링크2]가 있습니다.  
+앗, [태그 3][참조 링크1]도 있었네요.  
+
+[참조 링크1]: https://www.github.com
+[참조 링크2]: https://www.google.com
+
+```
+// 예제
+여기 [태그 1][참조 링크1]가 있습니다.  
+여기 [태그 1][참조 링크2]가 있습니다.  
+앗, [태그 3][참조 링크1]도 있었네요.  
+
+[참조 링크1]: www.github.com
+[참조 링크2]: www.google.com
+```
+
+참조는 위에서 두버째로 나타내는 대괄호들을 의미합니다.   
+\[참조 링크1\]와 \[참조 링크2\]  
+
+이 대괄호들은 마크다운 문서 하단에 외부 웹사이트에 대한 적절한 링크로 정의됩니다. 
+참조 링크 스타일의 장점은 같은 장소에 대한 다중 링크는 한 번만 업데이트하면 된다든 것입니다.  
+예를 들어 \[참조 링크1\] 링크를 모두 다른 사이트로 이동시키로 했다면 우리는 하나의 참조 링크만 변경하면 됩니다.  
+
+렌더링된 마크다운에서는 참조 링크가 나타나지 않습니다.
+참조 링크를 정의하는 방법은 묶은 참조 태그를 작성하고 그 다음에 콜론, 그 다음에 링크할 주소를 작성하면 됩니다.  
+
+```
+// 문제
+첫 번째 참조 태그를 "a fun place"로 정의하고, www.zombo.com에 연결하세요.  
+두 번째 참조 태그 "another fun place"를 www.stumbleupon.com로 링크되도록 만들어보세요.
+
+// 주어진 코드 
+Do you want to [see something fun][]?
+Well, do I have [the website for you][another fun place]!
+
+// 정답 코드 
+Do you want to [see something fun][a fun place]?
+Well, do I have [the website for you][another fun place]!
+
+[a fun place]: www.zombo.com
+[another fun place]: www.stumbleupon.com
+```
+
+Do you want to [see something fun][a fun place]?  
+Well, do I have [the website for you][another fun place]!  
+
+> 쉽게 외우는 방법
+
+첫대괄호 텍스트, 두번째 대괄호 참조변수
+\[텍스트\]\[참조변수\]  
+\[참조변수\]\: 링크주소
+
+링크 주소를 변경하고 싶을때 정의된 참조 변수만 변경하면된다.  
+참조 링크라고 부르지만, 변수와 같은 역할을 하기에 참조 변수라 이름을 붙이도록 하겠다.  
+
+
+
+
+
+
+
+[a fun place]: https://www.zombo.com
+[another fun place]: https://www.stumbleupon.com
