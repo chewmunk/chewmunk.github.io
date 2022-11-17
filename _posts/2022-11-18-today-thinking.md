@@ -1,15 +1,15 @@
 ---
-title: "[Thinking] 2022-11-18(금) Today Thinking"
+title: "[사유(思維)] 꾸준함이 결국은 성공으로 이끌고 이긴다."
 excerpt: ""
 
 categories:
-    - Thinking
+    - 사유(思維)
 tags:
-    - Thinking
+    - 사유(思維)
 last_modified_at: 2022-11-18 00:19:40 +0900
 ---
 
-> 꾸준함이 이긴다는 말이 있다. 
+> 꾸준함이 결국은 성공으로 이끌고 이긴다.
 
 정말 이 말이 정답인 것 같다.  
   
