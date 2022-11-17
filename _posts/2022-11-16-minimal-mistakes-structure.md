@@ -1,6 +1,6 @@
 ---
 title: "[Minimal Mistakes, Github Page] 페이지 구성"
-excerpt: "Minimal Mistakes의 페이지 구성을 알아봅니다."
+excerpt: ""
 
 categories:
     - Jekyll

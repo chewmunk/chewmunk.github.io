@@ -1,6 +1,6 @@
 ---
 title: "[Markdown] 마크다운 기초 정리 1 - 이탤릭체, 볼드체, 헤더, 링크(inline link, reference link)"
-excerpt: "[Markdown] 마크다운 기초 정리 1 - 이탤릭체, 볼드체, 헤더, 링크(inline link, reference link)"
+excerpt: ""
 
 categories:
     - Markdown
