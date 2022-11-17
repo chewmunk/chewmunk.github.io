@@ -46,13 +46,6 @@ _이것_
 ## 2.1 헤더의 종류 
 헤더는 6가지 타입이 존재합니다. 사이즈 순으로 나열하겠습니다.
 
-# 이것은 헤더 1입니다.
-## 이것은 헤더 2입니다.
-### 이것은 헤더 3입니다.
-#### 이것은 헤더 4입니다.
-##### 이것은 헤더 5입니다.
-###### 이것은 헤더 6입니다. 
-
 마크다운에서 헤더를 만들기 위해서는 마크(#)를 문단 앞에 사용하면됩니다.  
 헤더 사이즈 크기만큼 해쉬 마크 갯수를 늘려 사용하면 됩니다.  
 헤더 1을 사용하기 위해서는 (# 헤더 1)를 1개 사용할 수 있습니다.  
@@ -81,12 +74,12 @@ Header six
 
 ## 2.2 헤더에 이탤릭체 입히기 
 헤더에 볼드체(bold)를 입힐 순 없지만, 특정 단어에 이탤릭체는 사용할 수 있습니다.  
-#### Colombian Symbolism in _One Hundred Years of Solitude_  
+<!-- #### Colombian Symbolism in _One Hundred Years of Solitude_   -->
 
 Here's some words about the book _One Hundred Years..._.
 
 문제 
-```
+```js
 // 문제
 아래 입력 창에서 첫번째줄을 헤더 4로 책의 이름을 이탤릭체로 만들어보세요.
 Colombian Symbolism in One Hundred Years of Solitude
@@ -98,9 +91,10 @@ Here's some words about the book _One Hundred Years..._.
 #### Colombian Symbolism in _One Hundred Years of Solitude_
 
 Here's some words about the book _One Hundred Years..._.
-```
+```  
 
-# 3. 링크(Links)
+# 3. 링크(Links) 
+
 다른 웹사이트로 이동할 수 있는 링크에 대해서 배울 것입니다.
 
 마크다운에는 2가지 링크 유형이 있지만, 2가지 링크 유형 모두 정확히 같은 방식으로 랜더링됩니다.
@@ -129,7 +123,7 @@ Search for it.
 // 정답 코드
 [Github 방문!](www.github.com)
 [Search for it.](www.google.com)
-```
+```  
 
 ### 3.1.2 링크된 텍스트에 볼드체 추가하기
 예제 코드 2  
@@ -160,5 +154,7 @@ The Latest News from the BBC
 #### The Latest News from [the BBC](www.bbc.com/news)
 ```
 
-> 3.1.3의 md
-#### The Latest News from [the BBC](www.bbc.com/news)
+
+
+## 3.2 참조 링크 
+참조 링크는 실제로 문서 내의 다른 위치에 대한 참조를 나타냅니다.
