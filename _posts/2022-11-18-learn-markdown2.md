@@ -1,6 +1,6 @@
 ---
-title: "[Markdown] 기초 정리 2 - 이미지, 인용문"
-excerpt: "Markdown 기초 정리 2 - 이미지, 인용문"
+title: "[Markdown] 마크다운 기초 정리 2 - 이미지(image), 인용문"
+excerpt: "[Markdown] 마크다운 기초 정리 2 - 이미지(image), 인용문"
 
 categories:
     - Markdown
