@@ -273,3 +273,61 @@ Cut the cheese, Slice the tomatoes, Rub the tomatoes in flour
 * Dahlia (_Coreopsideae Dahlia_)
 
 ```
+
+
+## 6.4 깊이있는 리스트 만들기 
+
+좀 더 깊이 있는 리스트를 만들거나, 리스트에 다른 리스트를 겹쳐서 만들 수도 있습니다. 
+
+앞의 항목보다 공백 한칸을 별표 앞에 더 들여놓으면 됩니다. 
+
+* 틴틴
+ * 기자
+ * 얼간이 같은 주황색 머리
+ * 세상에서 제일 멋진 개와 친구들
+* 햅덕
+ * 선장
+ * 멋진 턱수염
+ * 위스키 좋아함
+   * 아마 스카치도?
+
+
+```
+* 틴틴
+ * 기자
+ * 얼간이 같은 주황색 머리
+ * 세상에서 제일 멋진 개와 친구들
+* 햅덕
+ * 선장
+ * 멋진 턱수염
+ * 위스키 좋아함
+   * 아마 스카치도?
+```
+
+
+```
+// 문제
+인물의 특징을 하위 목록으로 만들어보세요.
+
+// 주어진 코드 
+* Calculus, A professor, Has no hair, Often wears green
+* Castafiore, An opera singer, Has white hair, Is possibly mentally unwell
+
+// 정답 코드 
+* Calculus
+ * A professor
+ * Has no hair
+ * Often wears green
+* Castafiore
+ * An opera singer
+ * Has white hair
+ * Is possibly mentally unwell
+
+```
+
+무한적 하위 리스트를 추가할 수 있지만, 대개는 3단계까지만 사용하는 것이 좋습니다.  
+그렇지 않으면, 텍스트는 엉망진창이 될 것입니다.  
+
+
+
+## 6.5 단락을 다루는 방법 
