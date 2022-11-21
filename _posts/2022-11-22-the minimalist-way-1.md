@@ -1,3 +1,15 @@
+---
+title: "[Book] 미니멀리스트"
+excerpt: ""
+
+categories:
+    - Book
+tags:
+    - Book
+last_modified_at: 2022-11-22 01:17:18 +0900
+
+---
+
 # 에필로그 정리
   
 에리카는 미니멀 라이프의 핵심은 사고방식이라는 것을 깨달았다.  
