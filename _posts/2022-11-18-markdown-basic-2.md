@@ -1,5 +1,5 @@
 ---
-title: "[Markdown] 마크다운 기초 정리 2 - 이미지(images), 인용문(Blockquotes), 리스트(Lists)"
+title: "[Markdown]마크다운 정리 2 - 이미지(images), 인용문(Blockquotes), 리스트(Lists)"
 excerpt: ""
 
 categories:
