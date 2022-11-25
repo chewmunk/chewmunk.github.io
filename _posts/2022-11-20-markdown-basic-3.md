@@ -1,5 +1,5 @@
 ---
-title: "[Markdown] 마크다운 기초 3 - 단락("
+title: "[Markdown] 마크다운 기초 3 - 단락(Paragraphs)"
 excerpt: ""
 
 categories:
@@ -9,8 +9,6 @@ tags:
     - md
 last_modified_at: 2022-11-25 21:12:18 +0900
 ---
-
-
 
 # 7 단락(Paragraphs)
 
@@ -67,7 +65,7 @@ Nor did it occur to one of us there
 To doubt they were kneeling then.
 
 
-## 리스트 내에서의 단락을 구성 
+## 리스트 내에서의 줄바꿈 가능
 일반적인 용도는 리스트 내에서 단락을 포맷하는 것입니다. 
 
 ```
@@ -84,5 +82,12 @@ To doubt they were kneeling then.
 2. Pour a gallon of milk into the bowl.
 
  Basically, take the same guidance as above: don't be messy, but if you are, clean it up!
+
 // 정답 코드 
+1. Crack three eggs over a bowl.  
+ Now, you're going to want to crack the eggs in such a way that you don't make a mess.  
+ If you _do_ make a mess, use a towel to clean it up!
+
+2. Pour a gallon of milk into the bowl.  
+ Basically, take the same guidance as above: don't be messy, but if you are, clean it up!
 ```
